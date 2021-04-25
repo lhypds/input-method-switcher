@@ -192,7 +192,7 @@
             // 
             this.LblKeyboardLayoutIdValue.AutoSize = true;
             this.LblKeyboardLayoutIdValue.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblKeyboardLayoutIdValue.Location = new System.Drawing.Point(176, 153);
+            this.LblKeyboardLayoutIdValue.Location = new System.Drawing.Point(176, 151);
             this.LblKeyboardLayoutIdValue.Name = "LblKeyboardLayoutIdValue";
             this.LblKeyboardLayoutIdValue.Size = new System.Drawing.Size(76, 20);
             this.LblKeyboardLayoutIdValue.TabIndex = 10;
@@ -201,7 +201,7 @@
             // LblKeyboardLayoutId
             // 
             this.LblKeyboardLayoutId.AutoSize = true;
-            this.LblKeyboardLayoutId.Location = new System.Drawing.Point(16, 153);
+            this.LblKeyboardLayoutId.Location = new System.Drawing.Point(16, 151);
             this.LblKeyboardLayoutId.Name = "LblKeyboardLayoutId";
             this.LblKeyboardLayoutId.Size = new System.Drawing.Size(153, 20);
             this.LblKeyboardLayoutId.TabIndex = 9;
@@ -211,7 +211,7 @@
             // 
             this.LblDisplayNameValue.AutoSize = true;
             this.LblDisplayNameValue.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblDisplayNameValue.Location = new System.Drawing.Point(134, 125);
+            this.LblDisplayNameValue.Location = new System.Drawing.Point(134, 122);
             this.LblDisplayNameValue.Name = "LblDisplayNameValue";
             this.LblDisplayNameValue.Size = new System.Drawing.Size(110, 20);
             this.LblDisplayNameValue.TabIndex = 8;
@@ -220,11 +220,11 @@
             // LblDisplayName
             // 
             this.LblDisplayName.AutoSize = true;
-            this.LblDisplayName.Location = new System.Drawing.Point(16, 125);
+            this.LblDisplayName.Location = new System.Drawing.Point(16, 122);
             this.LblDisplayName.Name = "LblDisplayName";
-            this.LblDisplayName.Size = new System.Drawing.Size(106, 20);
+            this.LblDisplayName.Size = new System.Drawing.Size(110, 20);
             this.LblDisplayName.TabIndex = 7;
-            this.LblDisplayName.Text = "Display Name";
+            this.LblDisplayName.Text = "Display Name:";
             // 
             // StsMain
             // 
@@ -340,6 +340,7 @@
             this.MaximizeBox = false;
             this.Name = "FrmMain";
             this.Text = "Input Method Quick Switcher 1.5.1";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FrmMain_FormClosing);
             this.Shown += new System.EventHandler(this.FrmMain_Shown);
             this.Resize += new System.EventHandler(this.FrmMain_Resize);
             this.GrpDetails.ResumeLayout(false);

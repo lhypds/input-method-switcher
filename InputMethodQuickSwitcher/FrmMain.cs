@@ -143,8 +143,6 @@ namespace InputMethodQuickSwitcher
             }
         }
 
-        #region Windows Form Events
-
         private void LstInputMethod_SelectedIndexChanged(object sender, EventArgs e)
         {
             ListBox lstInputMethod = sender as ListBox;
@@ -239,6 +237,11 @@ namespace InputMethodQuickSwitcher
             Dispose();
         }
 
-        #endregion Windows Form Events
+        // Minimize to tray when user close x
+        private void FrmMain_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            e.Cancel = true;
+            Hide();
+        }
     }
 }
