@@ -104,6 +104,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="gcc.ico" />
+    <Content Include="Scripts\runInputMethodQuickSwitcher.vbs">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
