@@ -104,7 +104,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="gcc.ico" />
-    <Content Include="Scripts\runInputMethodQuickSwitcher.vbs">
+    <Content Include="runInputMethodQuickSwitcher.vbs">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
