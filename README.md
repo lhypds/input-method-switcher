@@ -5,6 +5,12 @@ Input Method Quick Switcher
 A quick input method switch tool
 
 
+Screenshot
+----------
+
+![input-method-quick-switcher](https://user-images.githubusercontent.com/4526937/156949273-4935ca52-574b-4144-a8f7-5ea575eb2641.png)
+
+
 Auto Start
 ----------
 
