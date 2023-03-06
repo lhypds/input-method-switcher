@@ -34,7 +34,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>gcc.ico</ApplicationIcon>
+    <ApplicationIcon>inputswitcher.ico</ApplicationIcon>
   </PropertyGroup>
   <PropertyGroup>
     <ApplicationManifest>app.manifest</ApplicationManifest>
@@ -105,7 +105,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="gcc.ico" />
+    <Content Include="inputswitcher.ico" />
     <Content Include="runInputMethodQuickSwitcher.vbs">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
