@@ -65,7 +65,7 @@
             // BtnOnOff
             // 
             this.BtnOnOff.Location = new System.Drawing.Point(8, 8);
-            this.BtnOnOff.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.BtnOnOff.Margin = new System.Windows.Forms.Padding(2);
             this.BtnOnOff.Name = "BtnOnOff";
             this.BtnOnOff.Size = new System.Drawing.Size(94, 31);
             this.BtnOnOff.TabIndex = 0;
@@ -77,7 +77,7 @@
             // 
             this.LstInputMethod.FormattingEnabled = true;
             this.LstInputMethod.Location = new System.Drawing.Point(8, 47);
-            this.LstInputMethod.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.LstInputMethod.Margin = new System.Windows.Forms.Padding(2);
             this.LstInputMethod.Name = "LstInputMethod";
             this.LstInputMethod.Size = new System.Drawing.Size(241, 134);
             this.LstInputMethod.TabIndex = 1;
@@ -108,7 +108,7 @@
             // BtnRebind
             // 
             this.BtnRebind.Location = new System.Drawing.Point(412, 185);
-            this.BtnRebind.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.BtnRebind.Margin = new System.Windows.Forms.Padding(2);
             this.BtnRebind.Name = "BtnRebind";
             this.BtnRebind.Size = new System.Drawing.Size(91, 29);
             this.BtnRebind.TabIndex = 4;
@@ -150,9 +150,9 @@
             this.GrpDetails.Controls.Add(this.LblEnlgishNameValue);
             this.GrpDetails.Controls.Add(this.LblEnglishName);
             this.GrpDetails.Location = new System.Drawing.Point(257, 42);
-            this.GrpDetails.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.GrpDetails.Margin = new System.Windows.Forms.Padding(2);
             this.GrpDetails.Name = "GrpDetails";
-            this.GrpDetails.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.GrpDetails.Padding = new System.Windows.Forms.Padding(2);
             this.GrpDetails.Size = new System.Drawing.Size(246, 138);
             this.GrpDetails.TabIndex = 7;
             this.GrpDetails.TabStop = false;
@@ -315,7 +315,7 @@
             // BtnUnbind
             // 
             this.BtnUnbind.Location = new System.Drawing.Point(317, 185);
-            this.BtnUnbind.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.BtnUnbind.Margin = new System.Windows.Forms.Padding(2);
             this.BtnUnbind.Name = "BtnUnbind";
             this.BtnUnbind.Size = new System.Drawing.Size(91, 29);
             this.BtnUnbind.TabIndex = 10;
@@ -351,7 +351,7 @@
             this.Controls.Add(this.LblCurrentKeyBindValue);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.MaximizeBox = false;
             this.Name = "FrmMain";
             this.Text = "Input Method Quick Switcher 1.5.1";
