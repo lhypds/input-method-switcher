@@ -1,8 +1,8 @@
 
-Input Method Quick Switcher
+Input Method Switcher
 ===========================
 
-A quick input method switch tool
+A quick input method switch tool.
 
 
 Screenshot
